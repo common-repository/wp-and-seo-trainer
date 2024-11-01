@@ -1,0 +1,78 @@
+/*
+CSS for Plugin Name:  WP And SEO Trainer
+*/
+@media only screen and (min-device-width:768px) {
+.rankya-wrap-video-lesson {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:25px;
+	height:0
+}
+.rankya-wrap-video-lesson iframe, rankya-wrap-video-lesson object, rankya-wrap-video-lesson embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%
+}
+}
+ @media only screen and (min-device-width:480px) {
+rankya-wrap-video-lesson {
+	height:auto
+}
+}
+#rankya_seo_trainer_button {
+	width:300px;
+	height: 37px;
+	margin:1rem 0;
+ 	padding: 1rem .5rem 0 .5rem;
+	color:#FFF;
+	border:5px solid #fff;
+	cursor:pointer;
+	font-size:1.2em;
+	line-height:1.2em;
+	text-align:center;
+	text-decoration:none;
+	display:block !important;
+	background-color:#C33;
+	box-shadow:0 0 20px rgba(16,29,0,0.8) inset;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#rankya_seo_trainer_button:after {
+	content: '»»»';
+	margin-left: 7px;
+}
+#rankya_seo_trainer_button:active, #rankya_seo_trainer_button:hover, #rankya_seo_trainer_button:focus {
+	color:#2d2d2d;
+	background-color:#83B730;
+	background-color:#83b730;
+	box-shadow:0 0 20px rgba(16,29,0,0.8) inset;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#rankyacssforlessondiv {
+	display:none;
+	padding: 15px 30px;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 80%;
+	font-size: 18px;
+	background-color: #99CC33;
+	border: 1px solid #00AEEF;
+	border-radius: 7px;
+	text-align: center;
+	color: #414042;
+	overflow: hidden;
+	line-height: 1.5;
+	max-width: 560px;
+}
+#rankyacssforlessondiv p {
+	font-size: 18px;
+}
+.rankyaclearfloatforlessondiv {
+	clear:both;
+	height:0;
+	font-size:1px;
+	line-height:0
+}
